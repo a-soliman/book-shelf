@@ -1,0 +1,50 @@
+.header {
+	margin-left: 50px;
+}
+.header h2 {
+
+}
+.header input {
+	width: 300px;
+}
+.header button {
+}
+#results {
+	text-align: center;
+}
+
+.card {
+	/*text-align: center;
+	border: 2px solid black;
+	padding: 20px;
+	margin: 20px 10px;
+	height: 400px;*/
+	height: 380px;
+    margin: 20px 10px;
+    overflow: hidden;
+    border: 2px solid #795548;
+}
+.text {
+	position: relative;
+    top: -114px;
+    background-color: rgba(8, 0, 0, 0.67);
+    color: white;
+    padding: 5px;
+}
+.card h2 {
+	font-size: 20px;
+	margin-bottom: 3px;
+}
+.card h4 {
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+.card img {
+	box-shadow: 2px 3px 10px black;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 300px;
+}
+.card p {
+
+}
