@@ -54,7 +54,11 @@ function bookSearch() {
         cardHolder.appendChild(card)
         results.appendChild(cardHolder)
 
-        
+        //animating the text.. 
+        $('.card').hover(
+          function() { $(this).children('.text').stop().animate({top: -5 }, 250) },
+          function() { $(this).children('.text').stop().animate({top: -136}, 250) } 
+    )
       }
     },
     type: 'GET'
