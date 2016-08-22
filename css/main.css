@@ -1,6 +1,9 @@
 .header {
 	margin-left: 50px;
 }
+.header .content {
+	text-align: center;
+}
 .header h2 {
 
 }
@@ -12,7 +15,8 @@
 #results {
 	text-align: center;
 }
-
+.card-holder {
+}
 .card {
 	/*text-align: center;
 	border: 2px solid black;
@@ -23,6 +27,8 @@
     margin: 20px 10px;
     overflow: hidden;
     border: 2px solid #795548;
+
+    position: relative;
 }
 .text {
 	position: relative;
