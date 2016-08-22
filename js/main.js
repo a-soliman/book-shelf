@@ -1,3 +1,5 @@
+
+ 
 function bookSearch() {
   var search = document.getElementById('search').value
   document.getElementById('results').innerHTML = ''
@@ -54,7 +56,9 @@ function bookSearch() {
         cardHolder.appendChild(card)
         results.appendChild(cardHolder)
 
-        //animating the text.. 
+        //animating the text..
+       
+
         $('.card').hover(
           function() { $(this).children('.text').stop().animate({top: -5 }, 250) },
           function() { $(this).children('.text').stop().animate({top: -136}, 250) } 
@@ -66,4 +70,6 @@ function bookSearch() {
 }
 document.getElementById('button').addEventListener('click', bookSearch, false)
 
-
+ $('button').click(function() {
+          $('.card').animate({ top: 100, left: 100 }, 100, 'easeOutBounce')
+        }) 
