@@ -1,0 +1,39 @@
+.header {
+	margin-left: 50px;
+}
+.header h2 {
+
+}
+.header input {
+	width: 300px;
+}
+.header button {
+}
+#results {
+	text-align: center;
+}
+
+.card {
+	background-image: url(http://www.creativindie.com/wp-content/uploads/2013/10/Enchantment-Book-Cover-Best-Seller1.jpg);
+	height: 380px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px 10px;
+    overflow: hidden;
+}
+.text {
+	position: relative;
+}
+.card h2 {
+	
+}
+.card h4 {
+
+}
+.card img {
+    height: 300px;
+    width: 204px;
+}
+.card p {
+
+}
